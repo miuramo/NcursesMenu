@@ -11,7 +11,7 @@ class MWindow extends N\Window{
 
 	public function __construct($columns = 0, $rows = 0, $x = 0, $y = 0) {
 		parent::__construct($columns,$rows,$x,$y);
-        	ncurses_keypad($this->windowResource, true);
+        	ncurses_keypad($this->getWindow(), true);
 	}
 
 	static public function createTopLeftOf(Window $parentWindow, $columns, $rows) {
