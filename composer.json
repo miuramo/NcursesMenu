@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "ext-ncurses": "*",
-	"wapmorgan/ncursesobjects": "dev-master"
+	"wapmorgan/ncursesobjects": "@dev"
     },
     "autoload": {
         "psr-4": {
