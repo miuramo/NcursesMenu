@@ -1,0 +1,14 @@
+{
+    "name": "miuramo/ncursesmenu",
+    "description": "NcursesMenu",
+    "license": "MIT",
+    "require": {
+        "ext-ncurses": "*",
+	"wapmorgan/ncursesobjects": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "miuramo\\NcursesMenu\\": "src"
+        }
+    }
+}
